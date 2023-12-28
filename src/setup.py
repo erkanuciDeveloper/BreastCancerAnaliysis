@@ -1,10 +1,10 @@
 from setuptools import find_packages, setup
 from typing import List
 
-#this for external lirabry 
+
 HYPHEN_E_DOT = '-e .'
 
-
+#this code do dowload to external lirabry into the porcejt, exampla , pandas, numpy etc..
 def get_requirements(file_path: str) -> List[str]:
     '''
     Reads dependencies from a requirements file and returns a list of requirements.
@@ -24,6 +24,7 @@ def get_requirements(file_path: str) -> List[str]:
 setup(
     name='BreastCancerAnaliysis',
     version='0.0.1',
+    description='Breast Cancer Analiysis',
     author='Erkan',
     author_email='erkan48592@hotmail.com',
     packages=find_packages(),
