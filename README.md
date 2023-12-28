@@ -1,2 +1,0 @@
-# BreastCancerAnaliysis
-Breast Cancer Analiysis
